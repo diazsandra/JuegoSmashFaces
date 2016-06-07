@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	</head>
+	<body>
+
+		<section id="sede" class="text-center">
+			<div class="container container-fluid bgwhite">
+				<h1>Smash Faces</h1>
+				<hr>
+				<br>
+				<video src="http://laboratoria.la/app/assets/video/video-laboratoria.mp4" width="45%" autoplay loop> </video>
+				<h3> Instrucciones </h3>
+				<p>Bienvenidas al juego Smash Faces, tú misión es poder identificar a todas tus compañeras de clase ingresando su nombre. Tienes 5 oportunidades antes de perder un punto y pasar a la siguiente.</p>
+			</div>
+		</section>
+
+		<section id="sede2">
+			<div class="container container-fluid">
+				<div class="row">
+
+					<div class="col-xs-3">
+						<h2>Elige tu sede: </h2>
+					</div>
+
+					<div class="col-xs-3">
+						<select class="form-control mySelect paises">
+    						<option>Lima</option>
+    						<option>Chile</option>
+    						<option>México</option>
+    					</select>
+						
+					</div>
+
+					<div id="puntos" class="col-xs-6">
+						<h2>Puntos: <span id="spanPuntos"> 0 </span>puntos</h2>
+					</div>
+
+				</div>				
+			</div>
+		</section>
+
+		<section id="fotos">
+			<div class="container container-fluid">
+				<div class="row">
+					<div id="contenedorJuego" class="contenedor">
+						<img id="imagenPersona" src="fotos/laboratoria.png">
+						<input type="text" id="inputNombre"></input>
+						<button id="btnRevisar" type="button">Comprobar</button>
+					</div>
+				</div>
+			</div>		
+		</section>
+		
+
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery"></script>-->
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/main.js"></script>
+
+
+	</body>
+</html>
